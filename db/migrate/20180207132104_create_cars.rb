@@ -4,8 +4,6 @@ class CreateCars < ActiveRecord::Migration[5.1]
       t.string :brand
       t.string :model
       t.text :descripton
-      t.string :Colour
-      t.string :price
 
       t.timestamps
     end
